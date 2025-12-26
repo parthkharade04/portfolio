@@ -25,23 +25,13 @@ UI Components: Radix UI (via shadcn/ui)
 
 Icons: Lucide React
 
-Deployment: Optimized for Vercel
+Deployment: Vercel
 
-
-📁 Project Structure
-portfolio/
-├── frontend/             # Main React application
-│   ├── public/           # Static assets
-│   │   └── resumes/      # Folder for PDF resumes
-│   ├── src/
-│   │   ├── components/ui # Reusable UI components (Buttons, Cards)
-│   │   └── pages/        # Portfolio.jsx (The main code file)
-└── vercel.json           # Deployment configuration for Vercel
-
-
+<!--
 🚢 Deployment on Vercel
 Connect your GitHub repository to Vercel.
 Set the Root Directory to frontend.
 Use the following Build Settings:
 Build Command: npm run build
 Output Directory: build
+-->
