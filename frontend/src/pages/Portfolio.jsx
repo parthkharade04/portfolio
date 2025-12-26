@@ -768,7 +768,7 @@ const Portfolio = () => {
                       June 2019 - Aug 2021
                     </div>
                     {/* EDIT: Percentage */}
-                    <div className="text-gray-400 mt-1">Percentage: 93%</div>
+                    <div className="text-gray-400 mt-1">Class XII: 93%</div>
                   </div>
                 </div>
               </CardHeader>
@@ -794,7 +794,7 @@ const Portfolio = () => {
                       June 2009 - March 2019
                     </div>
                     {/* EDIT: CGPA/Percentage */}
-                    <div className="text-gray-400 mt-1"> Class X%: 86</div>
+                    <div className="text-gray-400 mt-1"> Class X: 86%</div>
                   </div>
                 </div>
               </CardHeader>
