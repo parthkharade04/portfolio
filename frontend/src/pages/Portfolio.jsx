@@ -384,7 +384,7 @@ const Portfolio = () => {
                 <div className="flex gap-3 justify-center">
                   {/* EDIT: Replace # with your GitHub link */}
                   <a
-                    href="https://github.com/parthkharade04/Domain-Grounded-Smart-Legal-Assistant"
+                    href="https://github.com/parthkharade04/smart-legal-assistant"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
