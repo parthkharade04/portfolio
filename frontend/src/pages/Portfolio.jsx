@@ -684,7 +684,7 @@ const Portfolio = () => {
                 <div className="flex gap-3 justify-center">
                   {/* EDIT: Replace # with your GitHub link */}
                   <a
-                    href="https://github.com/parthkharade04/Expense-Tracker-Web-App"
+                    href="https://github.com/parthkharade04/expense-tracker-pro"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
