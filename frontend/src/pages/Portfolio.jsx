@@ -650,11 +650,11 @@ hallucinations.
               <CardHeader>
                 <CardTitle className="text-xl text-white">
                   {/* Project 6 */}
-                  Expense Tracker Web App
+                  ExpenseLens
                 </CardTitle>
                 {/* EDIT: Tech Stack */}
                 <CardDescription className="text-gray-400">
-                  Java • SpringBoot • PostgreSQL
+                  Java • SpringBoot • PostgreSQL • React.js 
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -662,24 +662,23 @@ hallucinations.
                 <ul className="space-y-2 text-gray-300 mb-4">
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Developed a full-stack expense management system using Java, Spring Boot, and PostgreSQL.
+                    Built a responsive Web Application using React and Java Spring Boot, then Dockerized it and deployed using Vercel and Render.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                     Created REST APIs for adding, viewing, updating, and deleting expense records with proper validation and error handling.
+                    Designed a RESTful API integrated with PostgreSQL for managing transactions data.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Designed a relational database schema and used SQL aggregation queries to generate monthly spending summaries and category-wise analysis.
+                    Implemented a modern User Interface featuring dynamic Pie Charts visualization to provide real-time expenditure analysis and cateogry-wise analysis.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Built a simple UI with HTML, CSS, and JavaScript for sorting, filtering, and viewing expenses.
+                    Designed an AI Assistant Financial Advisor which provides individual budget analysis, CSV file export, and grouping of Transaction History.
                   </li> 
                 </ul>
 
                 <div className="flex gap-3 justify-center">
-                  {/* EDIT: Replace # with your GitHub link */}
                   <a
                     href="https://github.com/parthkharade04/expense-tracker-pro"
                     target="_blank"
@@ -694,13 +693,12 @@ hallucinations.
                       Code
                     </Button>
                   </a>
-                  {/* EDIT: Replace # with your live demo link (or remove if not applicable) */}
-                  {/* <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://expense-tracker-pro-one.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <Button size="sm" className="bg-[#0ea5e9] hover:bg-[#0284c7]">
                       <ExternalLink className="mr-2" size={16} />
                       Live Demo
                     </Button>
-                  </a> */}
+                  </a> 
                 </div>
               </CardContent>
             </Card>
