@@ -348,11 +348,11 @@ const Portfolio = () => {
               <CardHeader>
                 <CardTitle className="text-xl text-white">
                   {/* Project 1 */}
-                  Domain-Grounded Smart Legal Insight Engine
+                 JurisMind: AI Legal Insight Engine 
                 </CardTitle>
                 {/* EDIT: Tech Stack */}
                 <CardDescription className="text-gray-400">
-                  Python  • NLP  • RAG
+                  Python  • NLP  • RAG  •FastAPI  • React.js   • Pinecone  • Docker 
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -360,31 +360,28 @@ const Portfolio = () => {
                 <ul className="space-y-2 text-gray-300 mb-4">
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Developed an AI-powered Legal Document Assistant to analyze,
-                    summarize, and answer queries from contract documents
+                     Engineered a Retrieval Augmented Generation (RAG) System capable of querying 500+ legal contracts. Connected to Pinecone Vector Database to handle over 50,000 text chunks with the help of Python in backend.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Implemented an end-to-end NLP pipeline using Hugging Face
-                    LLMs, FAISS vector search, and Streamlit for interactive
-                    querying and summarization.
+                   Integrated Meta’s Llama 3 model (via Groq) to create concise complex legal data into simple summaries. Implemented a strict citation system where the AI links back to the exact source file to ensure accuracy and reduce
+hallucinations.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Trained on 5,000+ real legal contracts to achieve
-                    domain-grounded understanding, clause-level retrieval, and
-                    accurate semantic insights.
+                    In order to provide real-time legal citations and full-text contract retrieval, a responsive React interface supported by effective FastAPI endpoints was designed.
+
                   </li>
-                  {/* <li className="flex items-start">
+                  <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Deployed model using Flask web framework
-                  </li> */}
+                   Executed secure API handling, CI/CD pipelines, and a production-ready Full Stack application with the help of Vercel and Render.
+                  </li> 
                 </ul>
 
                 <div className="flex gap-3 justify-center">
                   {/* EDIT: Replace # with your GitHub link */}
                   <a
-                    href="https://github.com/parthkharade04/smart-legal-assistant"
+                    href="https://github.com/parthkharade04/JurisMind-AI-Legal-Insight-Engine"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -397,13 +394,13 @@ const Portfolio = () => {
                       Code
                     </Button>
                   </a>
-                  {/* EDIT: Replace # with your live demo link (or remove if not applicable) */}
-                  {/* <a href="#" target="_blank" rel="noopener noreferrer">
+                 
+                  <a href="https://smart-legal-assistant-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">
                     <Button size="sm" className="bg-[#0ea5e9] hover:bg-[#0284c7]">
                       <ExternalLink className="mr-2" size={16} />
                       Live Demo
                     </Button>
-                  </a> */}
+                  </a>
                 </div>
               </CardContent>
             </Card>
