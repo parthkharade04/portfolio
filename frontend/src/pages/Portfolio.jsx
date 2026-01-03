@@ -348,11 +348,11 @@ const Portfolio = () => {
               <CardHeader>
                 <CardTitle className="text-xl text-white">
                   {/* Project 1 */}
-                 JurisMind: AI Legal Insight Engine 
+                  JurisMind: AI Legal Insight Engine
                 </CardTitle>
                 {/* EDIT: Tech Stack */}
                 <CardDescription className="text-gray-400">
-                  Python  • NLP  • RAG  •FastAPI  • React.js   • Pinecone  • Docker 
+                  Python • NLP • RAG •FastAPI • React.js • Pinecone
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -360,22 +360,30 @@ const Portfolio = () => {
                 <ul className="space-y-2 text-gray-300 mb-4">
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                     Engineered a Retrieval Augmented Generation (RAG) System capable of querying 500+ legal contracts. Connected to Pinecone Vector Database to handle over 50,000 text chunks with the help of Python in backend.
+                    Engineered a Retrieval Augmented Generation (RAG) System
+                    capable of querying 500+ legal contracts. Connected to
+                    Pinecone Vector Database to handle over 50,000 text chunks
+                    with the help of Python in backend.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                   Integrated Meta’s Llama 3 model (via Groq) to create concise complex legal data into simple summaries. Implemented a strict citation system where the AI links back to the exact source file to ensure accuracy and reduce
-hallucinations.
+                    Integrated Meta’s Llama 3 model (via Groq) to create concise
+                    complex legal data into simple summaries. Implemented a
+                    strict citation system where the AI links back to the exact
+                    source file to ensure accuracy and reduce hallucinations.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    In order to provide real-time legal citations and full-text contract retrieval, a responsive React interface supported by effective FastAPI endpoints was designed.
-
+                    In order to provide real-time legal citations and full-text
+                    contract retrieval, a responsive React interface supported
+                    by effective FastAPI endpoints was designed.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                   Executed secure API handling, CI/CD pipelines, and a production-ready Full Stack application with the help of Vercel and Render.
-                  </li> 
+                    Executed secure API handling, CI/CD pipelines, and a
+                    production-ready Full Stack application with the help of
+                    Vercel and Render.
+                  </li>
                 </ul>
 
                 <div className="flex gap-3 justify-center">
@@ -394,9 +402,16 @@ hallucinations.
                       Code
                     </Button>
                   </a>
-                 
-                  <a href="https://smart-legal-assistant-gamma.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    <Button size="sm" className="bg-[#0ea5e9] hover:bg-[#0284c7]">
+
+                  <a
+                    href="https://smart-legal-assistant-gamma.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      size="sm"
+                      className="bg-[#0ea5e9] hover:bg-[#0284c7]"
+                    >
                       <ExternalLink className="mr-2" size={16} />
                       Live Demo
                     </Button>
@@ -405,6 +420,204 @@ hallucinations.
               </CardContent>
             </Card>
 
+            <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
+              <CardHeader>
+                <CardTitle className="text-xl text-white">
+                  {/* Project 6 */}
+                  ExpenseLens
+                </CardTitle>
+                {/* EDIT: Tech Stack */}
+                <CardDescription className="text-gray-400">
+                  Java • SpringBoot • PostgreSQL • React.js
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {/* EDIT: 3-4 bullet points about the project */}
+                <ul className="space-y-2 text-gray-300 mb-4">
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Built a responsive Web Application using React and Java
+                    Spring Boot, then Dockerized it and deployed using Vercel
+                    and Render.
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Designed a RESTful API integrated with PostgreSQL for
+                    managing transactions data.
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Implemented a modern User Interface featuring dynamic Pie
+                    Charts visualization to provide real-time expenditure
+                    analysis and cateogry-wise analysis.
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Designed an AI Assistant Financial Advisor which provides
+                    individual budget analysis, CSV file export, and grouping of
+                    Transaction History.
+                  </li>
+                </ul>
+
+                <div className="flex gap-3 justify-center">
+                  <a
+                    href="https://github.com/parthkharade04/expense-tracker-pro"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="border-gray-600 hover:bg-blue-800 text-blue-400"
+                    >
+                      <Github className="mr-2" size={16} />
+                      Code
+                    </Button>
+                  </a>
+                  <a
+                    href="https://expense-tracker-pro-one.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      size="sm"
+                      className="bg-[#0ea5e9] hover:bg-[#0284c7]"
+                    >
+                      <ExternalLink className="mr-2" size={16} />
+                      Live Demo
+                    </Button>
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
+              <CardHeader>
+                <CardTitle className="text-xl text-white">
+                  {/* Project 3*/}
+                  Retail Inventory & Sales Analytics Database
+                </CardTitle>
+                {/* EDIT: Tech Stack */}
+                <CardDescription className="text-gray-400">
+                  PostgreSQL • PL/pgSQL • Power BI
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {/* EDIT: 3-4 bullet points about the project */}
+                <ul className="space-y-2 text-gray-300 mb-4">
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Designed a PostgreSQL database to manage retail
+                    transactions. Wrote PL/pgSQL database triggers to automate
+                    inventory management ensuring stock levels update instantly
+                    with every sale or cancellation.
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Built optimized SQL views to aggregate sales records into
+                    real-time reports.
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Created a Power BI dashboard and linked it to the database
+                    to visualize sales trends and automatically identify
+                    low-stock items for restocking
+                  </li>
+                </ul>
+
+                <div className="flex gap-3 justify-center">
+                  {/* EDIT: Replace # with your GitHub link */}
+                  <a
+                    href="https://github.com/parthkharade04/Retail-Inventory-Sales-Analytics-Database"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="border-gray-600 hover:bg-blue-800 text-blue-400"
+                    >
+                      <Github className="mr-2" size={16} />
+                      Code
+                    </Button>
+                  </a>
+                  {/* EDIT: Replace # with your live demo link (or remove if not applicable) */}
+                  {/* <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Button size="sm" className="bg-[#0ea5e9] hover:bg-[#0284c7]">
+                      <ExternalLink className="mr-2" size={16} />
+                      Live Demo
+                    </Button>
+                  </a> */}
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
+              <CardHeader>
+                <CardTitle className="text-xl text-white">
+                  {/* Project 4 */}
+                  Smart Crop Yield Prediction System
+                </CardTitle>
+                {/* EDIT: Tech Stack */}
+                <CardDescription className="text-gray-400">
+                  R Programming • ML • Data Analysis
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                {/* EDIT: 3-4 bullet points about the project */}
+                <ul className="space-y-2 text-gray-300 mb-4">
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Designed a Python System to process raw historical weather
+                    and soil data, caluculating precise season rainfall metrics
+                    to ensure high quality model training.
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Implemented an Ensemble learning pipeline using XGBoost and
+                    Random Forest to accurately predict crop yield based on
+                    various environment factors.
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-[#0ea5e9] mr-2">•</span>
+                    Developed a user-friendly Streamlit application that allows
+                    users to input farm details and see instant yield estimates.{" "}
+                  </li>
+                </ul>
+
+                <div className="flex gap-3 justify-center">
+                  {/* EDIT: Replace # with your GitHub link */}
+                  <a
+                    href="https://github.com/parthkharade04/crop-yield-expert"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      size="sm"
+                      variant="outline"
+                      className="border-gray-600 hover:bg-blue-800 text-blue-400"
+                    >
+                      <Github className="mr-2" size={16} />
+                      Code
+                    </Button>
+                  </a>
+
+                  <a
+                    href="https://crop-yield-expert-qedg9epjyvgdr5naiz4lyi.streamlit.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button
+                      size="sm"
+                      className="bg-[#0ea5e9] hover:bg-[#0284c7]"
+                    >
+                      <ExternalLink className="mr-2" size={16} />
+                      Live Demo
+                    </Button>
+                  </a>
+                </div>
+              </CardContent>
+            </Card>
 
             <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
               <CardHeader>
@@ -414,7 +627,7 @@ hallucinations.
                 </CardTitle>
                 {/* EDIT: Tech Stack */}
                 <CardDescription className="text-gray-400">
-                  Python  • ML  • Computer Vision
+                  Python • ML • Computer Vision
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -469,129 +682,16 @@ hallucinations.
               </CardContent>
             </Card>
 
-
-            <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
-              <CardHeader>
-                <CardTitle className="text-xl text-white">
-                  {/* Project 3*/}
-                  Retail Inventory & Sales Analytics Database 
-                </CardTitle>
-                {/* EDIT: Tech Stack */}
-                <CardDescription className="text-gray-400">
-                  PostgreSQL  
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                {/* EDIT: 3-4 bullet points about the project */}
-                <ul className="space-y-2 text-gray-300 mb-4">
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Designed a PostgreSQL-based retail system with structured schemas for products, customers, orders, and inventory.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Implemented triggers and functions to auto-update stock levels and calculate order totals.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Created SQL views and aggregation queries for monthly sales, top-selling products, and inventory insights.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Optimized queries using indexing and relational constraints for faster data retrieval.
-                  </li> 
-                </ul>
-
-                <div className="flex gap-3 justify-center">
-                  {/* EDIT: Replace # with your GitHub link */}
-                  <a
-                    href="https://github.com/parthkharade04/Retail-Inventory-Sales-Analytics-Database"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="border-gray-600 hover:bg-blue-800 text-blue-400"
-                    >
-                      <Github className="mr-2" size={16} />
-                      Code
-                    </Button>
-                  </a>
-                  {/* EDIT: Replace # with your live demo link (or remove if not applicable) */}
-                  {/* <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Button size="sm" className="bg-[#0ea5e9] hover:bg-[#0284c7]">
-                      <ExternalLink className="mr-2" size={16} />
-                      Live Demo
-                    </Button>
-                  </a> */}
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
-              <CardHeader>
-                <CardTitle className="text-xl text-white">
-                  {/* Project 4 */}
-                  Crop Yield Prediction Using Machine Learning
-                </CardTitle>
-                {/* EDIT: Tech Stack */}
-                <CardDescription className="text-gray-400">
-                  R Programming  • ML  • Data Analysis 
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                {/* EDIT: 3-4 bullet points about the project */}
-                <ul className="space-y-2 text-gray-300 mb-4">
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Developed a regression- based Machine Learning Model which predicts the growth of the crop in that area 
-                    considering various factors like rainfall, soil type and its Ph value, humidity, temperature and season.
-
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Implemented and compared multiple regression models: Linear Regression, Decision Tree, Random Forest, and 
-                    XGBoost for accuracy and performance.
-                  </li>
-                </ul>
-
-                <div className="flex gap-3 justify-center">
-                  {/* EDIT: Replace # with your GitHub link */}
-                  <a
-                    href="https://github.com/parthkharade04/Crop-Yield-Prediction"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="border-gray-600 hover:bg-blue-800 text-blue-400"
-                    >
-                      <Github className="mr-2" size={16} />
-                      Code
-                    </Button>
-                  </a>
-                  {/* EDIT: Replace # with your live demo link (or remove if not applicable) */}
-                  {/* <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Button size="sm" className="bg-[#0ea5e9] hover:bg-[#0284c7]">
-                      <ExternalLink className="mr-2" size={16} />
-                      Live Demo
-                    </Button>
-                  </a> */}
-                </div>
-              </CardContent>
-            </Card>
-
             <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
               <CardHeader>
                 <CardTitle className="text-xl text-white">
                   {/* Project 5 */}
-                  Context-Aware Spiritual Knowledge Retrieval System Using GraphRAG and LLM
+                  Context-Aware Spiritual Knowledge Retrieval System Using
+                  GraphRAG and LLM
                 </CardTitle>
                 {/* EDIT: Tech Stack */}
                 <CardDescription className="text-gray-400">
-                  Python  • NLP  • GraphRAG  • LLM
+                  Python • NLP • GraphRAG • LLM
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -599,19 +699,20 @@ hallucinations.
                 <ul className="space-y-2 text-gray-300 mb-4">
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Developed a Graph-based Retrieval-Augmented Generation system using Neo4j to extract and link knowledge 
-                    from spiritual discourses.
-
+                    Developed a Graph-based Retrieval-Augmented Generation
+                    system using Neo4j to extract and link knowledge from
+                    spiritual discourses.
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    Automated entity recognition from HTML files and structured them as a knowledge graph, enabling semantic 
-                    search and context-aware question answering with LLMs
-
+                    Automated entity recognition from HTML files and structured
+                    them as a knowledge graph, enabling semantic search and
+                    context-aware question answering with LLMs
                   </li>
                   <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
-                    This solution helps preserve and navigate large volumes of spiritual content efficiently.
+                    This solution helps preserve and navigate large volumes of
+                    spiritual content efficiently.
                   </li>
                   {/* <li className="flex items-start">
                     <span className="text-[#0ea5e9] mr-2">•</span>
@@ -645,66 +746,6 @@ hallucinations.
                 </div>
               </CardContent>
             </Card>
-
-            <Card className="bg-[#121212] border-gray-800 hover:border-[#0ea5e9] transition-all hover:scale-105 h-full flex flex-col">
-              <CardHeader>
-                <CardTitle className="text-xl text-white">
-                  {/* Project 6 */}
-                  ExpenseLens
-                </CardTitle>
-                {/* EDIT: Tech Stack */}
-                <CardDescription className="text-gray-400">
-                  Java • SpringBoot • PostgreSQL • React.js 
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                {/* EDIT: 3-4 bullet points about the project */}
-                <ul className="space-y-2 text-gray-300 mb-4">
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Built a responsive Web Application using React and Java Spring Boot, then Dockerized it and deployed using Vercel and Render.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Designed a RESTful API integrated with PostgreSQL for managing transactions data.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Implemented a modern User Interface featuring dynamic Pie Charts visualization to provide real-time expenditure analysis and cateogry-wise analysis.
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-[#0ea5e9] mr-2">•</span>
-                    Designed an AI Assistant Financial Advisor which provides individual budget analysis, CSV file export, and grouping of Transaction History.
-                  </li> 
-                </ul>
-
-                <div className="flex gap-3 justify-center">
-                  <a
-                    href="https://github.com/parthkharade04/expense-tracker-pro"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="border-gray-600 hover:bg-blue-800 text-blue-400"
-                    >
-                      <Github className="mr-2" size={16} />
-                      Code
-                    </Button>
-                  </a>
-                  <a href="https://expense-tracker-pro-one.vercel.app/" target="_blank" rel="noopener noreferrer">
-                    <Button size="sm" className="bg-[#0ea5e9] hover:bg-[#0284c7]">
-                      <ExternalLink className="mr-2" size={16} />
-                      Live Demo
-                    </Button>
-                  </a> 
-                </div>
-              </CardContent>
-            </Card>
-
-
-
           </div>
         </div>
       </section>
@@ -823,7 +864,7 @@ hallucinations.
               2. Removed the 'download' attribute so it doesn't force a download.
           */}
                 <a
-                  href="/resume/pnk__.pdf"
+                  href="/resume/pnk_main.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
