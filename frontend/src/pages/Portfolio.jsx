@@ -560,7 +560,7 @@ const Portfolio = () => {
                 </CardTitle>
                 {/* EDIT: Tech Stack */}
                 <CardDescription className="text-gray-400">
-                  R Programming • ML • Data Analysis
+                  Python • ML • Streamlit
                 </CardDescription>
               </CardHeader>
               <CardContent>
