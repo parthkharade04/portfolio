@@ -931,7 +931,7 @@ const Portfolio = () => {
                 {/* LinkedIn */}
                 <div className="flex flex-col items-center text-center">
                   <a
-                    href="https://linkedin.com/in/yourprofile"
+                    href="https://www.linkedin.com/in/parth-kharade"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group flex flex-col items-center"
