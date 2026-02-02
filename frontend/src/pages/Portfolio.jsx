@@ -127,7 +127,7 @@ const Portfolio = () => {
           {/* Profile Photo */}
           <div className="flex-shrink-0">
             <img
-              src="/resume/pnk.jpg"
+              src="/resume/pnk.JPG"
               alt="Parth Kharade"
               className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-[#0ea5e9]"
             />
