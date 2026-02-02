@@ -121,52 +121,61 @@ const Portfolio = () => {
         )}
       </nav>
 
-      {/* Hero Section */}    
+      {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 pt-20">
-        <div className="max-w-4xl mx-auto text-center">
-         
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-            Parth Kharade
-          </h1>
-
-          <div className="flex items-center justify-center gap-2 mb-6">
-            <Code className="text-[#0ea5e9]" size={24} />
-            {/* EDIT HERE: Replace with your role */}
-            <h2 className="text-2xl md:text-3xl text-gray-300">
-              Fresher Software Engineer
-            </h2>
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
+          {/* Profile Photo */}
+          <div className="flex-shrink-0">
+            <img
+              src="/resume/pnk.jpg"
+              alt="Parth Kharade"
+              className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-[#0ea5e9]"
+            />
           </div>
 
-          {/* EDIT HERE: Replace with your introduction line */}
-          <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-            Driven by a strong interest in data and AI, I enjoy turning data
-            into meaningful insights by building practical, data-driven
-            solutions through hands-on projects in machine learning, analytics,
-            and visualization to solve real-world problems.
-          </p>
+          {/* Name + Intro */}
+          <div>
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+              Parth Kharade
+            </h1>
 
-          <div className="flex flex-wrap gap-4 justify-center">
-            <Button
-              onClick={() => scrollToSection("projects")}
-              variant="outline"
-              className="border-[#0ea5e9] text-[#0ea5e9] hover:bg-[#0ea5e9] hover:text-blue px-8 py-6 text-lg"
-            >
-              View Projects
-            </Button>
-            <Button
-              onClick={() => scrollToSection("resume")}
-              variant="outline"
-              className="border-[#0ea5e9] text-[#0ea5e9] hover:bg-[#0ea5e9] hover:text-blue px-8 py-6 text-lg"
-            >
-              View Resume
-            </Button>
-            <Button
-              onClick={() => scrollToSection("contact")}
-              variant="outline"
-              className="border-[#0ea5e9] text-[#0ea5e9] hover:bg-[#0ea5e9] hover:text-blue px-8 py-6 text-lg"
-            >
-              Contact Me
-            </Button>
+            <div className="flex items-center justify-center md:justify-start gap-2 mb-6">
+              <Code className="text-[#0ea5e9]" size={24} />
+              <h2 className="text-2xl md:text-3xl text-gray-300">
+                Fresher Software Engineer
+              </h2>
+            </div>
+
+            <p className="text-xl text-gray-400 mb-12 max-w-2xl">
+              Driven by a strong interest in data and AI, I enjoy turning data
+              into meaningful insights by building practical, data-driven
+              solutions through hands-on projects in machine learning,
+              analytics, and visualization to solve real-world problems.
+            </p>
+
+            <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+              <Button
+                onClick={() => scrollToSection("projects")}
+                variant="outline"
+                className="border-[#0ea5e9] text-[#0ea5e9] hover:bg-[#0ea5e9] hover:text-blue px-8 py-6 text-lg"
+              >
+                View Projects
+              </Button>
+              <Button
+                onClick={() => scrollToSection("resume")}
+                variant="outline"
+                className="border-[#0ea5e9] text-[#0ea5e9] hover:bg-[#0ea5e9] hover:text-blue px-8 py-6 text-lg"
+              >
+                View Resume
+              </Button>
+              <Button
+                onClick={() => scrollToSection("contact")}
+                variant="outline"
+                className="border-[#0ea5e9] text-[#0ea5e9] hover:bg-[#0ea5e9] hover:text-blue px-8 py-6 text-lg"
+              >
+                Contact Me
+              </Button>
+            </div>
           </div>
         </div>
       </section>
