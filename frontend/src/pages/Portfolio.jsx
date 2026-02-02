@@ -124,6 +124,20 @@ const Portfolio = () => {
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="flex justify-center mb-8">
+            <img src="/resume/parth n kharade2025.JPG" // Ensure this matches your filename exactly
+        alt="Parth Kharade"
+        className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-[#0ea5e9] object-cover shadow-lg shadow-[#0ea5e9]/20"
+      />
+        </div>
+
+    <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
+      Parth Kharade
+    </h1>
+
+    {/* ... rest of your existing code */}
+      <section className="min-h-screen flex items-center justify-center px-6 pt-20">
+        <div className="max-w-4xl mx-auto text-center">
           {/* EDIT HERE: Replace with your name */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Parth Kharade
@@ -864,7 +878,7 @@ const Portfolio = () => {
               2. Removed the 'download' attribute so it doesn't force a download.
           */}
                 <a
-                  href="/resume/pnk_main.pdf"
+                  href="/resume/__pnk__.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
